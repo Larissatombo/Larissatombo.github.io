@@ -1,0 +1,70 @@
+body{
+    background: linear-gradient(to bottom), #c0e0f8, #a8cde8;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.container {
+    background: linear-gradient(to botttom, purple, blue);
+    padding: 30px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+    box-sizing: 0 0 10px rgba(0,0,0,0.3);
+    color: black;
+}
+.container h2 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+form {
+    text-align: left;
+}
+
+label   {
+    display: block; 
+    margin: 10px 0 5px;
+}
+.form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+label{
+    width: 120px;
+    text-align: right;
+    margin-right: 10px;
+    font-weight: bold;
+}
+input 
+input[type="text"],
+input[type="password"]{
+    width: 250px;
+    height: 30px;
+    font-size: 16px;
+}
+
+.btn-commencer{
+    display: block;
+    margin: 30px auto 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #66ccff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+p{
+    margin-top: 15px;
+    font-size: 14px;
+    color: black;
+}
+.icone img{
+    margin-top: 20px;
+    width: 80px;
+}
+

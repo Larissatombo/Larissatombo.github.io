@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de Connexion</title>
+    <link rel="stylesheet" href="=connexion.css">
+</head>
+<body>
+    <style>
+        body{
+            background-color: #9c859c;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            margin-top: 100px;
+        }
+        h1{
+            font-size: 28px;
+            margin-bottom: 40px;
+        }
+        .forum-group{
+            margin: 15px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        label{
+            width: 100px;
+            text-align: right;
+            margin: 20px;
+            padding: 20px;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="password"] {
+            width: 320px;
+            height: 30px;
+            padding: 5px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        label{
+            width: 120px;
+            text-align: right;
+            margin: 20px;
+            padding: 20px;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        </style>
+    <div class="container">
+        <div style="text-align: center;">
+        <h2 style="margin-left: 180px; margin-bottom: 30px;">Le Formulaire de Connexion</h2> 
+        </div>
+        <form>
+            <div class="forum-group">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="password">Mot de passe:</label>
+                <input type="password" id="password">
+            </div>
+        </form>
+        
+        <div style="text-align: center;margin-left: 180px; padding: 20px;">
+
+            <button id="Se connecter">Se connecter</button>
+
+        </div>
+
+
+        <div style="text-align: center;">
+            <p style="margin-top: 20px; margin-left: 180px; display: inline-block; font-size: 14px; color: #333;">Mot de passe oublié?</p>
+            </div>
+            <div class="icone">
+                <div style="display: flex; justify-content: center;">
+                    <img src="./Photos/set-of-different-black-vector-wireless-and-wifi-icons.jpg" 
+                    alt="./Photos/set-of-different-black-vector-wireless-and-wifi-icons.jpg"
+                    style="margin-left: 180px; width: 80px; height: 100px;">
+        <div class="./Photos/set-of-different-black-vector-wireless-and-wifi-icons.jpg" alt="Icône de connexion" width="50" height="50">
+            <div class="./Photos/set-of-different-black-vector-wireless-and-wifi-icons.jpg" alt="Icône de connexion" width="50" height="50">
+
+
+            </div>
+        </div>
+    </div> 
+    
+    <script>
+        document.getElementById('Se connecter').addEventListener('click', function(){
+            window.location.href="table.html";
+
+        });
+    </script>
+</body>
+</html>

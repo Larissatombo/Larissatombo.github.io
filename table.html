@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Fichiers</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: #4b2132;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            text-align: center;
+        }
+        table{
+            margin: auto;
+            border-collapse: collapse;
+            width: 80%;
+        }
+        th, td {
+            border: 1px solid #888;
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #f0f0f0;
+        }
+        .action-btn {
+            padding: 6px 12px;
+            margin: 0 4px;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            cursor: pointer;
+        }
+        .download {
+            background: #c2d4c7;
+        }
+        .share  {
+            background-color: #9bb5d1;
+        }
+        .delete   {
+            background-color: #b1888c;
+        }
+        .action-btn:hover  {
+            opacity: 0.85;
+        }
+        .actions-cell {
+            text-align: center;
+            vertical-align: middle;
+        }
+        .button-group  {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h2>Mes fichiers</h2>
+    <table>
+        <tr>
+            <th>Nom du fichier</th>
+            <th>Taille du fichier</th>
+            <th>Date</th>
+            <th>Actions</th>
+        </tr>
+        <tr>
+            <td>Fichiers</td>
+            <td>Taille</td>
+            <td>Date</td>
+            <td class="actions-cell">
+                <div class="button-group">
+                 <button class="action-btn download">Télécharger</button>
+                  <button class="action-btn share">Partager</button>
+                   <button class="action-btn delete">Supprimer</button>
+                </div>
+            </td>
+        </tr>
+
+    </table>
+    </body>
+
+        <div class="header">
+            <div class="left-header">
+                <div class="top-bar">
+                    <button id="Téléverser un fichier">Téléverser un fichier</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById("Téléverser un fichier").addEventListener('click', function(){
+            window.location.href="partager.html";
+        });
+    </script>
+</body>
+</html>
+
+        

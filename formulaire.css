@@ -1,0 +1,55 @@
+body{
+    background: linear-gradient(to bottom), #c0e0f8, #a8cde8;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    background: linear-gradient(to bottom right, #c471ed, #b36f73);
+    width: 400px;
+    padding: 70px;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+}
+.container h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+form {
+    text-align: left;
+}
+label   {
+    display: block; 
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+    color: white;
+}
+button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #cbe2ee;
+    border: none;
+    cursor: pointer;
+}
+p{
+    margin-top: 15px;
+    font-size: 14px;
+    color: black;
+}
+.icone img{
+    margin-top: 20px;
+    width: 80px;
+}
+

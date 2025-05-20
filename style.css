@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url("e:\Partage-fichiers\Format-photo-Web-taille-dimension-image-ecran-smartphone-Copyright-Cottonbro-Pexels-BD-1366x683-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+} 
+fond-image {
+    width: 30px;
+    height: auto;
+}  
+     
+        .container {
+            margin-left: 15px;
+            font-family: Arial;
+            color: #333;
+            text-decoration: none;
+            position: relative;
+        }  
+h1 {
+    text-align: center;
+    color: #333;
+}
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #eab1c4;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #d68aa7;
+    color: white;
+} 
+.features {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-left: 80px;
+    padding: 40px;
+} 
+.feature img {
+    width: 40px;
+    height: 40px;
+}   
+.icon-container {
+    display: flex;  
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}  
+.container {
+    width: 0px;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 40;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.icon-block {
+    text-align: center;
+    transition: transform 0.3s;
+
+}
+.icon-block: hover { 
+    transform: scale(1.1);
+}   

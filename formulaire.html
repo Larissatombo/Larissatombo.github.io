@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'Inscription</title>
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+<body>
+    <style>
+  body {
+    background-color: #b5a7ce;
+}
+
+    </style>
+    <div class="container">
+        <h2>Le Formulaire d'Inscription</h2>  
+        <form>
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom"> <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"> <br>
+            <label for="mdp">Mot de passe:</label>
+            <input type="password" id="mdp" name="mdp"> <br>
+            <label for="mdp2">Confirmer le mot de passe:</label>
+            <input type="password" id="mdp2" name="mdp2"> <br>
+        </form> 
+            <div style="text-align: center;">
+                <button id="s'inscrire">s'inscrire</button>
+            </div>
+  
+    
+        <div style="text-align: center;">
+        <p>Déjà un compte? <a href="#">Se connecter</a></p>
+        </div>
+        <div class="icone">
+            <div style="display: flex; justify-content: center;">
+            <img src="./Photos/18251659.png"
+            alt="./Photos/18251659.png"> 
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("s'inscrire").addEventListener('click', function( ){
+            window.location.href="connexion.html";
+        });
+    </script> 
+</body>
+</html>
